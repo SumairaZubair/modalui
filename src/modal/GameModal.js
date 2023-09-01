@@ -55,8 +55,12 @@ import '../modal/GameModal.css'
 import { styled } from '@mui/material/styles'; 
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import SmartphoneOutlinedIcon from '@mui/icons-material/SmartphoneOutlined';
-import MapsUgcOutlinedIcon from '@mui/icons-material/MapsUgcOutlined';
-// import { Padding } from '@mui/icons-material';
+import AppleIcon from '@mui/icons-material/Apple';
+import TelegramIcon from '@mui/icons-material/Telegram';
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faLine } from '@fortawesome/free-brands-svg-icons'; // Import the Line icon from the FontAwesome library
+
 // import { ButtonBase } from '@mui/material';
 // import { makeStyles } from '@mui/styles';
 const MyButton = styled(Button)
@@ -124,7 +128,7 @@ const GameModal = () => {
         </Button>
           <Button id='googleBtn' >
          <div>
-        <img width="35" height="35" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo" className='icons'/> 
+        <img width="35" height="35" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo" className='icon'/> 
         <p className='btnPara'>Sign in with Google</p>
          </div>       
          </Button>
@@ -141,15 +145,15 @@ const GameModal = () => {
          </div>
          <div className='msgIcons'>
             <div className='icondiv'>
-            <img width="25" height="25" src="https://img.icons8.com/ios/50/speech-bubble--v1.png" alt="speech-bubble--v1" className='msgg'/></div>
+           <AppleIcon/></div>
             <div className='icondiv'>
-            <img width="25" height="25" src="https://img.icons8.com/ios/50/speech-bubble--v1.png" alt="speech-bubble--v1"/>
+            <TelegramIcon/>
             </div>
             <div className='icondiv'>
-            <img width="25" height="25" src="https://img.icons8.com/ios/50/speech-bubble--v1.png" alt="speech-bubble--v1"/>
+            <i class="fa-brands fa-line" id='lineicon'></i>
             </div>
             <div className='icondiv'>
-            <img width="25" height="25" src="https://img.icons8.com/ios/50/speech-bubble--v1.png" alt="speech-bubble--v1"/>
+            <img width="30" height="30" src="https://img.icons8.com/ios/50/kakao-talk.png" alt="kakao-talk"/>
             </div>
 
          </div>

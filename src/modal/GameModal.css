@@ -33,11 +33,15 @@
     border-radius: 40px;
     background-color: rgb(247, 220, 44);
 }
-.icons{
+.icons,.icon{
     color: white;
      position: absolute;
      left: 10px;
      top: 8px;
+}
+.lineicon{
+    color: #30c048;
+    font-size: 40px
 }
 .inlineItem{
     display: flex;
@@ -124,6 +128,12 @@ background: #E0E4E9;
          position: absolute;
          left: 5px;
          top: 3px;
+    }
+    .icon{
+        color: white;
+         position: absolute;
+         left: 5px;
+         top: 0px;
     }
     .icondiv{
         width: 30px;
