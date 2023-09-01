@@ -79,7 +79,7 @@ const MyButton = styled(Button)
 
 const GameModal = () => {
     // const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
 
   const handleOpen = () => {
     setOpen(true);
@@ -91,7 +91,7 @@ const GameModal = () => {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Open Modal</Button>
+      <Button onClick={handleOpen}>Login</Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -109,7 +109,7 @@ const GameModal = () => {
             borderRadius: '10px',
             boxShadow:
               '0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12)',
-            padding: '32px',
+            padding: '15px',
             width: '75%',
             maxWidth: '400px', // Limit the maximum width for larger screens
           }}
@@ -153,7 +153,7 @@ const GameModal = () => {
             <i class="fa-brands fa-line" id='lineicon'></i>
             </div>
             <div className='icondiv'>
-            <img width="30" height="30" src="https://img.icons8.com/ios/50/kakao-talk.png" alt="kakao-talk"/>
+            <img width="25" height="25" src="https://img.icons8.com/ios/50/kakao-talk.png" alt="kakao-talk"/>
             </div>
 
          </div>
